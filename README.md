@@ -5,7 +5,7 @@
 
 > QueryClient -> QueryCache <-> Query <-> QueryObserver -> QueryClient
 >
-> ( A <- B 는 A가 B를 소유한다는 의미이다.)
+> ( A -> B 는 A가 B를 소유한다는 의미이다.)
 
 2. Closure를 사용하며 Singleton Pattern으로 관리되는 notifyManager 객체를 분석하자.  
    (위의 4개의 객체에 Event를 전달하는 역할)
